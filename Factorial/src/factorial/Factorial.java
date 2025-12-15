@@ -7,7 +7,7 @@ public class Factorial{
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        long factorial = 1;
+        int factorial = 1;
 
         for (int i = 1; i <= n; i++) {
             factorial = factorial * i;
@@ -16,4 +16,5 @@ public class Factorial{
         System.out.println("Factorial of " + n + " is: " + factorial);
     }
 }
+
 
